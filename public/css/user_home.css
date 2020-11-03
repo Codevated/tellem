@@ -1,0 +1,108 @@
+.listed-people{
+  width: 70%;
+}
+.listed-people .person{
+  background:#ffffff;
+  width:100%;
+  padding:10px;
+  margin-top:10px;
+  border:#d8d8d8 solid 1px;
+  border-radius: 3px;
+}
+.listed-people .person #img{
+  width: 10%;
+}
+.listed-people .person #img img{
+  width: 100%;
+  border-radius: 35px;
+}
+.listed-people .person #bio{
+  width: 85%;
+  margin-left:5%;
+}
+.listed-people .person #bio #name{
+  font-weight: 600;
+}
+.listed-people .person #bio #bio-data{
+  width: 80%;
+}
+#event-action h3{
+  font-size: 15px;
+  margin-bottom:0px;
+  margin-top:5px;
+  color: #a0a0a0;
+  font-weight: 600;
+}
+#event-action h4{
+  font-size: 16px;
+  margin-bottom:0px;
+  margin-top:5px;
+}
+#bio #meeting-action, #event-action{
+  border-top: solid 1px #d8d8d8;
+  margin-top:15px;
+  padding-top: 5px;
+}
+#event-action #event-item{
+  display: block;
+  background: #f4f4f4;
+  padding:5px;
+  margin-top: 5px;
+}
+#event-action #event-item a, #meeting-action a{
+  font-weight: bold;
+}
+#bio #meeting-action ul, #event-action ul{
+  list-style: none;
+  margin:0px;
+  padding:0px;
+}
+#meeting-action li:first-child, #event-action li:first-child{
+  margin-left:0px;
+}
+#meeting-action li, #event-action li{
+  display: inline;
+  margin-left:7px;
+  font-size:14px;
+}
+.listed-people .person #bio #add-person{
+  width: 15%;
+  background: #2a2a2b;
+  padding:5px;
+}
+.listed-people .person #bio #add-person a{
+  color: #ffffff;
+  font-size:13px;
+}
+.user-activity{
+  width: 25%;
+  /* Fixed the div */
+  position: fixed;
+  right: 90px;
+  top: 70px;
+}
+.user-activity ul{
+  list-style: none;
+  margin:0px;
+  padding:0px;
+}
+.user-activity li{
+  margin-top:5px;
+  font-size:14px;
+}
+.user-activity li span{
+  font-weight: 600;
+}
+.user-activity .meeting, .user-activity .event, .user-activity .recent{
+  background: #fefefe;
+  padding: 10px;
+  margin-top: 10px;
+}
+.user-activity .recent{
+  background: none;
+}
+.user-activity .meeting h4, .user-activity .event h4, .user-activity .recent h4{
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: solid 1px #d8d8d8;
+}
