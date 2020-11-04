@@ -1,0 +1,44 @@
+<%- include('header'); -%>
+<div class="request-meeting-content">
+  <div class="meeting-content-info">
+    <div class="back-btn"><a href="/user-home">Back</a></div>
+    <h4>Request to meet Jack Oloo:</h4>
+    <div class="bio clearfix">
+      <div id="img" class="float-left">
+        <img src="gary.jpeg" alt="">
+      </div>
+      <div id="bio-data" class="float-right">
+        <div>Jack Oloo</div>
+        <div>Data scientist at Twiga Foods</div>
+      </div>
+    </div>
+    <div class="meeting-details">
+      <h4>Details</h4>
+      <ul>
+        <li>Hosted: 300</li>
+        <li>Cost: $10 per hour</li>
+      </ul>
+    </div>
+    <div class="payment">
+      <h4>Payment</h4>
+      <form>
+        <div>
+          <label for="">Proposed meeting hours</label>
+        </div>
+        <div>
+          <input type="number" step="1" value="0">
+        </div>
+        <div>
+          <label for="">Total cost:</label>
+        </div>
+        <div>
+          <input name="total" type="text" value="0.00"/>
+        </div>
+        <div id="payment-submit-btn">
+          <input name="proceed" type="submit" value="Proceed" />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<%- include('footer'); -%>
