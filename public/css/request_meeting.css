@@ -1,0 +1,95 @@
+.request-meeting-content{
+  display: block;
+  background: #2a2a2b;
+  width:100%;
+  height:100%;
+  position: fixed;
+  top:0px;
+}
+.meeting-content-info{
+  display: block;
+  background: #ffffff;
+  border-radius: 5px;
+  padding:10px;
+  width:40%;
+  margin-left: 30%;
+  margin-top:10px;
+}
+.meeting-content-info .back-btn{
+  text-align: center;
+  padding:5px;
+  border:#ededed solid 1px;
+  background: #ededed;
+  border-radius: 5px;
+  width:80px;
+}
+.meeting-content-info h4{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.meeting-content-info .bio{
+  border-bottom: #cccccc solid 1px;
+  padding: 10px;
+}
+.meeting-content-info #img{
+  width:15%;
+}
+.meeting-content-info #img img{
+  width:100%;
+  border-radius: 35px;
+}
+.meeting-content-info #bio-data{
+  width: 80%;
+  margin-left:0px;
+}
+.meeting-content-info .meeting-details{
+  padding: 10px;
+  border-bottom: #cccccc solid 1px;
+}
+.meeting-details h4{
+  font-size:16px;
+  text-align: left;
+  font-weight: 600;
+}
+.meeting-details ul{
+  list-style: none;
+  margin:0px;
+  padding:0px;
+}
+.meeting-details li:first-child{
+  margin-left:0px;
+  padding-left:0px;
+}
+.meeting-details li{
+  display: inline;
+  margin-left:7px;
+  font-size:16px;
+  padding: 5px;
+}
+.meeting-content-info .payment{
+  padding: 10px;
+}
+.meeting-content-info .payment h4{
+  font-size:16px;
+  text-align: left;
+  font-weight: 600;
+}
+.payment div{
+  margin-top: 5px;
+}
+.payment input{
+  width:100%;
+  padding:10px;
+  margin-top:0px;
+  border:#d8d8d8 solid 1px;
+  border-radius: 3px;
+}
+.payment input[type="submit"]{
+  margin-top:15px;
+  padding:10px;
+  background: #2a2a2b;
+  border:#2a2a2b solid 1px;
+  color: #ffffff;
+  cursor: pointer;
+}
